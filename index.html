@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onClick="setInterval(myCounter, 1000)">Start counter!</button>
+
+<p id="counter">start counter.</p>
+
+<script>
+var c = 0;
+function myCounter() {
+  document.getElementById("counter").innerHTML = ++c;
+}
+</script> 
